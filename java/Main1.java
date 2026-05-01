@@ -5,8 +5,8 @@ class Mobile{
     double price;
 
     void showDetails(){
-        this.brand=brand;
-        this.price=price;
+        //this.brand=brand;
+        //this.price=price;// apparently using this here is completely useless
         System.out.println("the brand is "+brand +" and cost is $"+price);
 
 
